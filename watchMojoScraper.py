@@ -33,7 +33,7 @@ def scrapeData(tconst):
 
 if __name__=="__main__":
 
-    tconsts = pd.read_csv("data/tconsts.csv")
+    tconsts = pd.read_csv("tconsts.csv")
     
     #prev_i=1000
     prev_i=100
