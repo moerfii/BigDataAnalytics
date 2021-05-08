@@ -36,7 +36,7 @@ if __name__=="__main__":
     tconsts = pd.read_csv("tconsts.csv")
     
     #prev_i=1000
-    prev_i=100
+    prev_i=176700
     s = time.time()
     for i in range(prev_i,len(tconsts)):
         #save every 1000 movies
