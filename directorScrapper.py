@@ -27,3 +27,9 @@ for table in tables:
         td = row.find("td")
         if td:
             directors.append(td.find("a").text)
+
+df = pd.DataFrame(columns=["nominated_directors"])
+
+df["nominated_directors"] = directors
+df
+df.to_csv("data/nominated_directors.csv")
